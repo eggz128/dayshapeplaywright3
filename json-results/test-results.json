@@ -1,0 +1,1229 @@
+{
+  "config": {
+    "configFile": "E:\\JSTS\\dayshapeplaywright3\\playwright.config.ts",
+    "rootDir": "E:/JSTS/dayshapeplaywright3/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "json-results/test-results.json"
+        }
+      ],
+      [
+        "E:\\JSTS\\dayshapeplaywright3\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "E:/JSTS/dayshapeplaywright3/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "setup",
+        "name": "setup",
+        "testDir": "E:/JSTS/dayshapeplaywright3/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/global\\.setup\\.ts/"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "E:/JSTS/dayshapeplaywright3/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "teardown",
+        "name": "teardown",
+        "testDir": "E:/JSTS/dayshapeplaywright3/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "/global\\.teardown\\.ts/"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "E:/JSTS/dayshapeplaywright3/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "E:/JSTS/dayshapeplaywright3/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "E:/JSTS/dayshapeplaywright3/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "E:/JSTS/dayshapeplaywright3/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "E:/JSTS/dayshapeplaywright3/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "E:/JSTS/dayshapeplaywright3/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "E:/JSTS/dayshapeplaywright3/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "E:/JSTS/dayshapeplaywright3/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.48.2",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api-tests.spec.ts",
+      "file": "api-tests.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 849,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:01:59.712Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\api-tests-test-Mobile-Safari\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7dad3b54554215492b9b-1208cb568af80e786379",
+          "file": "api-tests.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "example.spec.ts",
+      "file": "example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 11449,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:01:59.689Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\example-has-title-Mobile-Safari\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\example-has-title-Mobile-Safari\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-2fe6c330d7850c262360",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 15596,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:01:59.512Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\example-get-started-link-Mobile-Safari\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\example-get-started-link-Mobile-Safari\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-79cc3d222f94cc39c750",
+          "file": "example.spec.ts",
+          "line": 12,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "test-1.spec.ts",
+      "file": "test-1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Capturing values",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "failed",
+                  "duration": 0,
+                  "error": {
+                    "message": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead.",
+                    "stack": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                    },
+                    {
+                      "message": "Error: \"context\" and \"page\" fixtures are not supported in \"afterAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:01.588Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-1-Capturing-values-Mobile-Safari\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "492d4a3e7e76c4aacf4a-5acf449543a7a97fdf2e",
+          "file": "test-1.spec.ts",
+          "line": 173,
+          "column": 5
+        },
+        {
+          "title": "Generic methods",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:02.149Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "492d4a3e7e76c4aacf4a-4236b9293c74e5071373",
+          "file": "test-1.spec.ts",
+          "line": 200,
+          "column": 5
+        },
+        {
+          "title": "Actionability",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:02.153Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "492d4a3e7e76c4aacf4a-db39671c6f9b2c03a200",
+          "file": "test-1.spec.ts",
+          "line": 222,
+          "column": 5
+        },
+        {
+          "title": "Waiting for a pop up window",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "failed",
+                  "duration": 5,
+                  "error": {
+                    "message": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead.",
+                    "stack": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                    },
+                    {
+                      "message": "Error: \"context\" and \"page\" fixtures are not supported in \"afterAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:06.361Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-1-Waiting-for-a-pop-up-window-Mobile-Safari\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "492d4a3e7e76c4aacf4a-d9e02d95a7d0e336a9af",
+          "file": "test-1.spec.ts",
+          "line": 234,
+          "column": 5
+        },
+        {
+          "title": "listen for console message",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:07.348Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "492d4a3e7e76c4aacf4a-131f4aea85c1734cc4d1",
+          "file": "test-1.spec.ts",
+          "line": 252,
+          "column": 5
+        },
+        {
+          "title": "wait for console message before continuing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:07.351Z",
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "492d4a3e7e76c4aacf4a-fc0bb030172d8dce76c1",
+          "file": "test-1.spec.ts",
+          "line": 264,
+          "column": 5
+        }
+      ],
+      "suites": [
+        {
+          "title": "A test suite",
+          "file": "test-1.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Locator Handler",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "failed",
+                      "duration": 3,
+                      "error": {
+                        "message": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead.",
+                        "stack": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                        },
+                        {
+                          "message": "Error: \"context\" and \"page\" fixtures are not supported in \"afterAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-29T13:02:04.346Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-1-A-test-suite-Locator-Handler-Mobile-Safari\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "492d4a3e7e76c4aacf4a-e3f622772920b6f333ae",
+              "file": "test-1.spec.ts",
+              "line": 95,
+              "column": 7
+            },
+            {
+              "title": "drag drop slider",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-29T13:02:05.081Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "492d4a3e7e76c4aacf4a-3e3991192d536d41a3f7",
+              "file": "test-1.spec.ts",
+              "line": 123,
+              "column": 7
+            },
+            {
+              "title": "compare runtime images",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-29T13:02:05.088Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "492d4a3e7e76c4aacf4a-a628c0ac862cf324933c",
+              "file": "test-1.spec.ts",
+              "line": 140,
+              "column": 7
+            }
+          ],
+          "suites": [
+            {
+              "title": "An inner test suite",
+              "file": "test-1.spec.ts",
+              "line": 28,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "test",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "Mobile Safari",
+                      "projectName": "Mobile Safari",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "status": "failed",
+                          "duration": 4,
+                          "error": {
+                            "message": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead.",
+                            "stack": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                          },
+                          "errors": [
+                            {
+                              "message": "Error: \"context\" and \"page\" fixtures are not supported in \"beforeAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                            },
+                            {
+                              "message": "Error: \"context\" and \"page\" fixtures are not supported in \"afterAll\" since they are created on a per-test basis.\nIf you would like to reuse a single page between tests, create context manually with browser.newContext(). See https://aka.ms/playwright/reuse-page for details.\nIf you would like to configure your page before each test, do that in beforeEach hook instead."
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-10-29T13:01:59.606Z",
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-1-A-test-suite-An-inner-test-suite-test-Mobile-Safari\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "492d4a3e7e76c4aacf4a-9f6651b16df984665f5d",
+                  "file": "test-1.spec.ts",
+                  "line": 29,
+                  "column": 9
+                },
+                {
+                  "title": "test2",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "Mobile Safari",
+                      "projectName": "Mobile Safari",
+                      "results": [
+                        {
+                          "workerIndex": -1,
+                          "status": "skipped",
+                          "duration": 0,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-10-29T13:02:00.140Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "492d4a3e7e76c4aacf4a-d876fb6fbc96b1ae2f5f",
+                  "file": "test-1.spec.ts",
+                  "line": 64,
+                  "column": 9
+                },
+                {
+                  "title": "all products",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "Mobile Safari",
+                      "projectName": "Mobile Safari",
+                      "results": [
+                        {
+                          "workerIndex": -1,
+                          "status": "skipped",
+                          "duration": 0,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2024-10-29T13:02:00.145Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "492d4a3e7e76c4aacf4a-346b7ac36014bfe4c949",
+                  "file": "test-1.spec.ts",
+                  "line": 84,
+                  "column": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "test-2.spec.ts",
+      "file": "test-2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test using username webdriver",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 17493,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:09.839Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-test-using-username-webdriver-Mobile-Safari\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-test-using-username-webdriver-Mobile-Safari\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b0639a757ff76b21cdba-ccd5697a31beb3ccf00c",
+          "file": "test-2.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "test using username edgewords",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 16688,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:11.803Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-test-using-username-edgewords-Mobile-Safari\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-test-using-username-edgewords-Mobile-Safari\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b0639a757ff76b21cdba-ce01e6c5642100a5b75a",
+          "file": "test-2.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "test using env vars",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "failed",
+                  "duration": 19585,
+                  "error": {
+                    "message": "TimeoutError: locator.click: Timeout 5000ms exceeded.\nCall log:\n  \u001b[2m- waiting for getByRole('link', { name: 'Log Out' })\u001b[22m\n",
+                    "stack": "TimeoutError: locator.click: Timeout 5000ms exceeded.\nCall log:\n  \u001b[2m- waiting for getByRole('link', { name: 'Log Out' })\u001b[22m\n\n    at E:\\JSTS\\dayshapeplaywright3\\tests\\test-2.spec.ts:32:53",
+                    "location": {
+                      "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-2.spec.ts",
+                      "column": 53,
+                      "line": 32
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 30 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Submit'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 31 |\u001b[39m   page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m dialog \u001b[33m=>\u001b[39m dialog\u001b[33m.\u001b[39maccept())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Log Out'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 33 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 34 |\u001b[39m\n \u001b[90m 35 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-2.spec.ts",
+                        "column": 53,
+                        "line": 32
+                      },
+                      "message": "TimeoutError: locator.click: Timeout 5000ms exceeded.\nCall log:\n  \u001b[2m- waiting for getByRole('link', { name: 'Log Out' })\u001b[22m\n\n\n\u001b[0m \u001b[90m 30 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Submit'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 31 |\u001b[39m   page\u001b[33m.\u001b[39mon(\u001b[32m'dialog'\u001b[39m\u001b[33m,\u001b[39m dialog \u001b[33m=>\u001b[39m dialog\u001b[33m.\u001b[39maccept())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Log Out'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 33 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 34 |\u001b[39m\n \u001b[90m 35 |\u001b[39m\u001b[0m\n\n\u001b[2m    at E:\\JSTS\\dayshapeplaywright3\\tests\\test-2.spec.ts:32:53\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:13.754Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-test-using-env-vars-Mobile-Safari\\test-failed-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-test-using-env-vars-Mobile-Safari\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-2.spec.ts",
+                    "column": 53,
+                    "line": 32
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "b0639a757ff76b21cdba-d49cc9656357754319a8",
+          "file": "test-2.spec.ts",
+          "line": 23,
+          "column": 5
+        },
+        {
+          "title": "using parameter",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 10955,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:16.948Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-using-parameter-Mobile-Safari\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-using-parameter-Mobile-Safari\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b0639a757ff76b21cdba-36fae8a071e596059265",
+          "file": "test-2.spec.ts",
+          "line": 36,
+          "column": 5
+        },
+        {
+          "title": "using POM",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 11553,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:28.208Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-using-POM-Mobile-Safari\\test-finished-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-using-POM-Mobile-Safari\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b0639a757ff76b21cdba-b03639c80f6f5cb2005a",
+          "file": "test-2.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "screenshots and reporting",
+          "ok": false,
+          "tags": [
+            "smoke",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [
+                {
+                  "type": "issue",
+                  "description": "link to related issue on bug tracker https://www.google.com/"
+                },
+                {
+                  "type": "doc",
+                  "description": "link to documentation https://www.google.com/"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "failed",
+                  "duration": 12125,
+                  "error": {
+                    "message": "Error: page.pdf: PDF generation is only supported for Headless Chromium",
+                    "stack": "Error: page.pdf: PDF generation is only supported for Headless Chromium\n    at E:\\JSTS\\dayshapeplaywright3\\tests\\test-2.spec.ts:83:16",
+                    "location": {
+                      "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-2.spec.ts",
+                      "column": 16,
+                      "line": 83
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 81 |\u001b[39m     \u001b[90m//Webkit doesnt support PDF generation either\u001b[39m\n \u001b[90m 82 |\u001b[39m     \u001b[90m//Make a PDF (test printing layout)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 83 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mpdf({ path\u001b[33m:\u001b[39m \u001b[32m'./manualscreenshots/printed.pdf'\u001b[39m })\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 84 |\u001b[39m   }\n \u001b[90m 85 |\u001b[39m\n \u001b[90m 86 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"Appears in std out section of the report\"\u001b[39m)\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-2.spec.ts",
+                        "column": 16,
+                        "line": 83
+                      },
+                      "message": "Error: page.pdf: PDF generation is only supported for Headless Chromium\n\n\u001b[0m \u001b[90m 81 |\u001b[39m     \u001b[90m//Webkit doesnt support PDF generation either\u001b[39m\n \u001b[90m 82 |\u001b[39m     \u001b[90m//Make a PDF (test printing layout)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 83 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mpdf({ path\u001b[33m:\u001b[39m \u001b[32m'./manualscreenshots/printed.pdf'\u001b[39m })\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 84 |\u001b[39m   }\n \u001b[90m 85 |\u001b[39m\n \u001b[90m 86 |\u001b[39m   console\u001b[33m.\u001b[39mlog(\u001b[32m\"Appears in std out section of the report\"\u001b[39m)\u001b[0m\n\n\u001b[2m    at E:\\JSTS\\dayshapeplaywright3\\tests\\test-2.spec.ts:83:16\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:28.358Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-screenshots-and-reporting-Mobile-Safari\\test-failed-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-2-screenshots-and-reporting-Mobile-Safari\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-2.spec.ts",
+                    "column": 16,
+                    "line": 83
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "b0639a757ff76b21cdba-fb4382837200e2707bf2",
+          "file": "test-2.spec.ts",
+          "line": 55,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "test-demo-setup-teardown-projects.spec.ts",
+      "file": "test-demo-setup-teardown-projects.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Should already be logged in",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "failed",
+                  "duration": 10620,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 6000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('h1')\nExpected string: \u001b[32m\"A\u001b[7mdd A Record\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"A\u001b[7mccess and Authentication\u001b[27m\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toContainText with timeout 6000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1')\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 6000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('h1')\nExpected string: \u001b[32m\"A\u001b[7mdd A Record\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"A\u001b[7mccess and Authentication\u001b[27m\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toContainText with timeout 6000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1')\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\n    at E:\\JSTS\\dayshapeplaywright3\\tests\\test-demo-setup-teardown-projects.spec.ts:10:38",
+                    "location": {
+                      "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-demo-setup-teardown-projects.spec.ts",
+                      "column": 38,
+                      "line": 10
+                    },
+                    "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m     \n \u001b[90m  9 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'h1'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Add A Record'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m\n \u001b[90m 13 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-demo-setup-teardown-projects.spec.ts",
+                        "column": 38,
+                        "line": 10
+                      },
+                      "message": "Error: \u001b[31mTimed out 6000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('h1')\nExpected string: \u001b[32m\"A\u001b[7mdd A Record\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"A\u001b[7mccess and Authentication\u001b[27m\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toContainText with timeout 6000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1')\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\n\n\u001b[0m \u001b[90m  8 |\u001b[39m     \n \u001b[90m  9 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'h1'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Add A Record'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m\n \u001b[90m 13 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at E:\\JSTS\\dayshapeplaywright3\\tests\\test-demo-setup-teardown-projects.spec.ts:10:38\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:29.519Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-demo-setup-teardown-p-77de3-Should-already-be-logged-in-Mobile-Safari\\test-failed-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-demo-setup-teardown-p-77de3-Should-already-be-logged-in-Mobile-Safari\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-demo-setup-teardown-projects.spec.ts",
+                    "column": 38,
+                    "line": 10
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "38993a016d441b8e0e94-6f8b525f77e17baebecb",
+          "file": "test-demo-setup-teardown-projects.spec.ts",
+          "line": 7,
+          "column": 5
+        },
+        {
+          "title": "Should already be logged in2",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "status": "failed",
+                  "duration": 11313,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 6000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('h1')\nExpected string: \u001b[32m\"A\u001b[7mdd A Record\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"A\u001b[7mccess and Authentication\u001b[27m\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toContainText with timeout 6000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1')\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 6000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('h1')\nExpected string: \u001b[32m\"A\u001b[7mdd A Record\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"A\u001b[7mccess and Authentication\u001b[27m\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toContainText with timeout 6000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1')\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\n    at E:\\JSTS\\dayshapeplaywright3\\tests\\test-demo-setup-teardown-projects.spec.ts:18:38",
+                    "location": {
+                      "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-demo-setup-teardown-projects.spec.ts",
+                      "column": 38,
+                      "line": 18
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 16 |\u001b[39m     \n \u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'h1'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Add A Record'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-demo-setup-teardown-projects.spec.ts",
+                        "column": 38,
+                        "line": 18
+                      },
+                      "message": "Error: \u001b[31mTimed out 6000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('h1')\nExpected string: \u001b[32m\"A\u001b[7mdd A Record\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"A\u001b[7mccess and Authentication\u001b[27m\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toContainText with timeout 6000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1')\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\u001b[2m  -   locator resolved to <h1>Access and Authentication</h1>\u001b[22m\n\u001b[2m  -   unexpected value \"Access and Authentication\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 16 |\u001b[39m     \n \u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'h1'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Add A Record'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 19 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m1000\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m\n \u001b[90m 21 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at E:\\JSTS\\dayshapeplaywright3\\tests\\test-demo-setup-teardown-projects.spec.ts:18:38\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-10-29T13:02:37.368Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-demo-setup-teardown-p-2dc19-hould-already-be-logged-in2-Mobile-Safari\\test-failed-1.png"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "E:\\JSTS\\dayshapeplaywright3\\test-results\\test-demo-setup-teardown-p-2dc19-hould-already-be-logged-in2-Mobile-Safari\\trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "E:\\JSTS\\dayshapeplaywright3\\tests\\test-demo-setup-teardown-projects.spec.ts",
+                    "column": 38,
+                    "line": 18
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "38993a016d441b8e0e94-5e93fa762db9ee9431cb",
+          "file": "test-demo-setup-teardown-projects.spec.ts",
+          "line": 15,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-10-29T13:01:56.970Z",
+    "duration": 52306.691,
+    "expected": 7,
+    "skipped": 8,
+    "unexpected": 8,
+    "flaky": 0
+  }
+}

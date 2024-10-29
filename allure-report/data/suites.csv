@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9439","screenshots and reporting","firefox","Tue Oct 29 11:31:36 GMT 2024","passed","Tue Oct 29 11:31:46 GMT 2024","","test-2.spec.ts","",""
+"","13208","screenshots and reporting","webkit","Tue Oct 29 11:31:36 GMT 2024","failed","Tue Oct 29 11:31:49 GMT 2024","","test-2.spec.ts","",""
+"","5692","screenshots and reporting","chromium","Tue Oct 29 11:31:36 GMT 2024","passed","Tue Oct 29 11:31:42 GMT 2024","","test-2.spec.ts","",""
